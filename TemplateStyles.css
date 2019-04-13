@@ -1,0 +1,114 @@
+﻿body {
+	margin: 0
+}
+#allPage {
+	position: relative;
+	width: 980px;
+	height: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #E3F7FB;
+}
+#header {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 80px;
+	z-index: 1;
+	background-color: #B3EBF4;
+}
+#logo {
+	left: 0px;
+}
+#header img {
+	z-index: -1;
+	position: absolute;
+	top: 0px;
+}
+#agentInfo {
+	right: 112px;
+	width: 160px;
+	position: absolute;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: capitalize;
+	font-size: 0.7em;
+	padding-top: 38px;
+	text-align: right;
+}
+#name {
+	left: 341px;
+}
+#profilePic {
+	right: 0px;
+}
+#navigation {
+	text-align: center;
+	height: 18px;
+	width: 380px;
+	font-size: small;
+	position: absolute;
+	left: 300px;
+	top: 80px;
+	z-index: 1;
+	background-color: #B3EBF4;
+}
+#navigation p {
+	padding: 0px;
+	margin: 0px;
+}
+#content {
+	position: absolute;
+	left: 0px;
+	top: 98px;
+	width: 100%;
+	z-index: 3;
+}
+#footer {
+	border-radius: 5px;
+	position: absolute;
+	left: 0px;
+	width: 977px;
+	height: 20px;
+	z-index: 2;
+	background-color: #B3EBF4;
+	border: 1px solid #000000;
+	box-shadow: 3px 3px 5px;
+	bottom: 0px;
+	padding-bottom: 4px;
+}
+#copyright {
+	margin: 0px 0px 0px 220px;
+	padding: 0px;
+	font-size: x-small;
+	text-align: center;
+	display: inline-block;
+}
+#back2index {
+	padding: 0px;
+	margin: 0px;
+	font-size: small;
+	display: inline-block;
+	width: 100px;
+}
+#back2index p {
+	padding: 3px 0px 0px 3px;
+	margin: 0px;
+	font-size: small;
+	display: inline;
+}
+a {
+	text-decoration: none;
+	color: #B57704;
+	font-weight: bolder;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 1.1em;
+}
+a:hover {
+	text-decoration: underline overline;
+	background-color: #7CDCED;
+	color: #B57704;
+}

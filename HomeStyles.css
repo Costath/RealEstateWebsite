@@ -1,0 +1,59 @@
+﻿blockquote {
+	padding: 10px;
+	border-style: 4;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px;
+	font-size: .8em;
+	margin-top: 25px;
+	background-color: #EFFBFC;
+	width: 590px;
+	text-align: justify;
+}
+#baloon {
+	right: 20px;
+}
+#topDiv {
+	z-index: 5;
+	position: absolute;
+}
+#topQuote {
+	position: absolute;
+	top: 73px;
+	left: 220px;
+}
+#AndersonPix {
+	border: thick double #E9BB67;
+	z-index: 5;
+	margin-top: 80px;
+	left: 25px;
+}
+#middleDiv {
+	margin-right: 130px;
+}
+#middleQuote {
+	top: 220px;
+	position: absolute;
+}
+#BagginsPix {
+	border: thick double #E9BB67;
+	z-index: auto;
+	position: absolute;
+	right: 70px;
+	margin-top: 210px;
+}
+#bottomDiv {
+	position: absolute;
+	z-index: 5;
+	top: 380px;
+}
+#bottomQuote{
+	position: absolute;
+	top: -5px;
+	left: 220px;
+}
+#BondPix {
+	border: thick double #E9BB67;
+	z-index: 5;
+	position: absolute;
+	left: 25px;
+}
