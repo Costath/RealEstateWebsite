@@ -7,7 +7,18 @@
 img {
 	border: medium ridge #666666;
 }
+a{
+	color: #B57704;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration:none;
+}
 .specs {
 	font-weight: bold;
 	font-variant: small-caps;
+}
+a:hover {
+	background-color: #E3F7FB;
+	text-decoration: underline overline;
 }
