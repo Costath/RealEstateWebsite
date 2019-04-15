@@ -1,0 +1,13 @@
+﻿table {
+	width: 100%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: .9em;
+	text-align: justify;
+}
+img {
+	border: medium ridge #666666;
+}
+.specs {
+	font-weight: bold;
+	font-variant: small-caps;
+}

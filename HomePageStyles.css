@@ -1,16 +1,19 @@
 ﻿blockquote {
 	padding: 10px;
 	border-style: 4;
-	border-radius: 3px;
+	border-radius: 10px;
 	box-shadow: 3px 3px 3px;
 	font-size: .8em;
 	margin-top: 25px;
 	background-color: #EFFBFC;
 	width: 590px;
 	text-align: justify;
+	opacity: 0.3;
 }
 #baloon {
-	right: 20px;
+	margin-left: 50px;
+	position: absolute;
+	z-index: 5;
 }
 #topDiv {
 	z-index: 5;
@@ -24,22 +27,26 @@
 #AndersonPix {
 	border: thick double #E9BB67;
 	z-index: 5;
+	position: absolute;
 	margin-top: 80px;
 	left: 25px;
 }
 #middleDiv {
+	z-index: 5;
+	position: absolute;
 	margin-right: 130px;
 }
 #middleQuote {
 	top: 220px;
 	position: absolute;
+	z-index: 5;
 }
 #BagginsPix {
 	border: thick double #E9BB67;
-	z-index: auto;
 	position: absolute;
-	right: 70px;
-	margin-top: 210px;
+	z-index: 5;
+	margin-top: 170px;
+	left: 740px;
 }
 #bottomDiv {
 	position: absolute;
@@ -56,4 +63,18 @@
 	z-index: 5;
 	position: absolute;
 	left: 25px;
+	top: 0px;
+}
+#mainRegion {
+	background-image: url('Images/wallpaperHouse.jpg');
+	background-repeat: no-repeat;
+	background-size: 980px 532px;
+	width: 980px;
+	height: 532px;
+	opacity: 0.7;
+	position: absolute;
+	z-index: 0;
+}
+blockquote:hover {
+	opacity: 1;
 }
