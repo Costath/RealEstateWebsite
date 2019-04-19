@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<!--Created by: Thales costa - Created on: April, 2019-->
+<html>
+
+<!-- #BeginTemplate "Template.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!-- #BeginEditable "doctitle" -->
+<title>THE Real Estate - Contact Us - Thales Costa COMP213 Term Project</title>
+<link href="ContactUsStyles.css" rel="stylesheet" type="text/css">
+<!-- #EndEditable -->
+<meta content="COMP213, Term Project, Web Design, Centennial College" name="keywords">
+<meta content="Term Project" name="description">
+<link href="TemplateStyles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+<div id="header">
+<img id="logo" alt="Company logo, a yellow house" longdesc="Company logo, a yellow house" src="Images/houseLogo.png" height="80" width="106">
+<img id="name" alt="Company name, THE Real Estate" longdesc="Company name, THE Real Estate" src="Images/header.png" height="80" width="298">
+<div id="agentInfo">
+Dany Rand<br>
+(437) 210 0123<br>
+DRand@THERealAgent.com</div>
+<img id="profilePic" alt="Real Estate agent picture" longdesc="Real Estate agent profile picture" src="Images/ProfilePic.png" height="80" width="106">
+<div id="navigation">
+<p><a href="Index.html">Home</a> |
+ <a href="HouseList.html">Houses List</a> |
+ <a href="SiteMap.html">Site Map</a> |
+ <a href="ContactUs.html">Contact Us</a> |
+ <a href="AboutUs.html">About Us</a></p>
+</div>
+</div>
+<div id="mainRegion"></div>
+<div id="content">
+<!-- #BeginEditable "content" -->
+	<h1>Contact Form</h1>
+	<form action="mailto:DRand@THERealAgent.com" method="post">
+		<fieldset id="fieldSetID"><legend>Identification</legend>
+		<label for="txtName">Name:</label>
+		<input id="txtName" name="txtName" type="text" size="20" tabindex="1"><br>
+		<label for="txtPhone">Telephone:</label>
+		<input id="txtPhone" name="txtPhone" type="text" size="20" tabindex="3"><br>
+		<label for="txtEmail">E-mail:</label>
+		<input id="txtEmail" name="txtEmail" type="text" size="25" tabindex="5"></fieldset>
+		
+		<fieldset><legend>Property details</legend>
+		<label for="txtType">Type of property:</label>
+		<input id="txtType" name="txtType" type="text" placeholder="House or condo" size="35" tabindex="7"><br>
+		<label for="txtBedrooms">Number of bedrooms:</label>
+		<input id="txtBedrooms" name="txtBedrooms" type="text" size="35" tabindex="9"><br>
+		<label for="txtBathrooms">Number of bathrooms:</label>
+		<input id="txtBathrooms" name="txtBathrooms" type="text" size="35" tabindex="11"><br>
+		<label for="txtPrice">Price range:</label>
+		<input id="txtPrice" name="txtPrice" type="text" size="35" tabindex="13"></fieldset>
+		
+		<fieldset><legend>Question</legend>
+		<label for="txtQuestion">For additional comments, leave a message on the box:</label>
+		<textarea id="txtQuestion" cols="40" name="txtQuestion" rows="6" placeholder="---Additional comments---" tabindex="15"></textarea></fieldset>
+	<p><input name="btnSubmit" type="submit" value="Send Form" tabindex="17">&nbsp;<input name="btnReset" type="reset" value="Clear Form" tabindex="19"></p>
+	</form>
+<!-- #EndEditable -->
+</div>
+<div id="footer"><div id="back2index"><p><a href="../index.html">back to index</a></p></div>
+<p id="copyright">Copyright Thales Costa - Term Project - COMP213</p>
+</div>
+</div>
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

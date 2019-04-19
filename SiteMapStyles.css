@@ -1,0 +1,45 @@
+﻿h1 {
+	padding-left: 20px;
+}
+ul {
+	
+}
+li {
+	padding: 2px 5px 2px 5px;
+}
+#mainRegion {
+	background-image: url('Images/wallpaperHouse.jpg');
+	background-repeat: no-repeat;
+	background-size: 980px 532px;
+	opacity: 0.2;
+	width: 980px;
+	height: 532px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#tree {
+	list-style-type: none;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px;
+	position: absolute;
+	z-index: 1;
+	height: 300px;
+	top: 80px;
+	left: 150px;
+}
+#credits{
+	margin-top:19px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 80px;
+	left: 500px;
+}
+.child {
+	list-style-image: url('Images/ListBullet.gif');
+}

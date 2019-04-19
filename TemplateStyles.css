@@ -1,6 +1,18 @@
 ﻿body {
 	margin: 0
 }
+a {
+	text-decoration: none;
+	color: #B57704;
+	font-weight: bolder;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 1.1em;
+}
+a:hover {
+	text-decoration: underline overline;
+	background-color: #FDD893;
+	color: #B57704;
+}
 #allPage {
 	position: relative;
 	width: 980px;
@@ -70,6 +82,17 @@
 	width: 100%;
 	z-index: 3;
 }
+#mainRegion {
+	background-image: url('Images/wallpaperHouse.jpg');
+	background-repeat: no-repeat;
+	background-size: 980px 650px;
+	opacity: 0.15;
+	width: 980px;
+	height: 650px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
 #footer {
 	border-radius: 5px;
 	position: absolute;
@@ -84,11 +107,10 @@
 	padding-bottom: 4px;
 }
 #copyright {
-	margin: 0px 0px 0px 220px;
-	padding: 0px;
+	margin: 0px;
+	padding: 0px 0px 0px 260px;
 	font-size: x-small;
-	text-align: center;
-	display: inline-block;
+	display: inline;
 }
 #back2index {
 	padding: 0px;
@@ -102,17 +124,4 @@
 	margin: 0px;
 	font-size: small;
 	display: inline;
-}
-a {
-	text-decoration: none;
-	color: #B57704;
-	font-weight: bolder;
-	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size: 1.1em;
-}
-a:hover {
-	text-decoration: underline overline;
-/*	background-color: #B57704;
-	color: #7CDCED;*/
-	color: #B57704;
 }
